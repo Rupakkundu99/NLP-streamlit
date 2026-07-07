@@ -1,5 +1,5 @@
 # runtime.txt
 3.11
 streamlit
-tensorflow
+tensorflow==2.15.1
 numpy
