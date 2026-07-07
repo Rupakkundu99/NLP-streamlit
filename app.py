@@ -5,7 +5,7 @@ import numpy as np
 
 # Load the word index and model
 word_index = tf.keras.datasets.imdb.get_word_index()
-model = tf.keras.models.load_all('sentiment_model.keras')
+model = tf.keras.models.load_model('sentiment_model.keras')
 
 # Helper function to preprocess user input
 def preprocess_text(text):
